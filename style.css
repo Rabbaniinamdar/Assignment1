@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  position: relative;
+  font-family: "Yeon Sung", cursive;
+}
+
+.box {
+  width: 30%;
+  height: 160px;
+  background-color: rgb(118, 118, 118);
+  float: left;
+  border: 2px solid black;
+  margin: 12px;
+  overflow: hidden;
+
+}
+.sec-1,
+.sec-2,
+.sec-3 {
+  width: 150px;
+  height: 25px;
+  padding-top: 3px;
+  border-style: solid;
+  border-top: 0px;
+  border-right: 0px;
+  border-color: black;
+  margin: 0px;
+  float: right;
+  text-align: center;
+  position: relative;
+  font-weight: bolder;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.sec-1 {
+  background-color: darksalmon;
+}
+.sec-2 {
+  background-color: rgb(192, 74, 74);
+  color: white;
+}
+.sec-3 {
+  background-color: darkkhaki;
+}
+.content {
+  margin: 10px;
+  margin-top: 40px;
+  font-family: "Yeon Sung", cursive;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .box {
+    overflow: hidden;
+    width: 46%;
+  }
+  #box-3 {
+    width: 96%;
+  }
+}
+@media (max-width: 767px) {
+  .box {
+    overflow: hidden;
+    width: 90%;
+  }
+}
