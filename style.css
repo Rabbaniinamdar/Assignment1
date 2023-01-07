@@ -1,64 +1,63 @@
 h1 {
-  text-align: center;
-  position: relative;
-  font-family: "Yeon Sung", cursive;
+    text-align: center;
+    position: relative;
+    font-family: 'Times New Roman', Times, serifs;
 }
 
 .box {
-  width: 30%;
-  height: 160px;
-  background-color: rgb(118, 118, 118);
-  float: left;
-  border: 2px solid black;
-  margin: 12px;
-  overflow: hidden;
+    width: 29%;
+    height: 150px;
+    margin: 15px;
+    border: 2px solid black;
+    float: left;
+    overflow: hidden;
+    background-color: burlywood;
+}
 
+.one, .two, .three {
+    float: right;
+    margin: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    position: relative;
+    text-align: center;
+    font-size: large;
+    padding-top: 0px;
 }
-.sec-1,
-.sec-2,
-.sec-3 {
-  width: 150px;
-  height: 25px;
-  padding-top: 3px;
-  border-style: solid;
-  border-top: 0px;
-  border-right: 0px;
-  border-color: black;
-  margin: 0px;
-  float: right;
-  text-align: center;
-  position: relative;
-  font-weight: bolder;
-  font-size: large;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+.one {
+    background-color:aqua;
 }
-.sec-1 {
-  background-color: darksalmon;
+.two {
+    background-color: rgb(106, 69, 141);
+    color: white;
 }
-.sec-2 {
-  background-color: rgb(192, 74, 74);
-  color: white;
+.three {
+    background-color: rgb(129, 115, 97);
 }
-.sec-3 {
-  background-color: darkkhaki;
+
+.body {
+    margin: 30px;
+    margin-top: 40px;
 }
-.content {
-  margin: 10px;
-  margin-top: 40px;
-  font-family: "Yeon Sung", cursive;
-}
+
 @media (min-width: 768px) and (max-width: 991px) {
-  .box {
-    overflow: hidden;
-    width: 46%;
-  }
-  #box-3 {
-    width: 96%;
-  }
+    .box{
+        overflow: hidden;
+        width: 45%;
+    }
+    #box3 {
+        width: 94%;
+    }
 }
+
 @media (max-width: 767px) {
-  .box {
-    overflow: hidden;
-    width: 90%;
+    .box {
+      overflow: hidden;
+      width: 90%;
+    }
   }
-}
